@@ -14,7 +14,7 @@ p{
     font-weight: 400;
     color: #606060;
 }
- .extra-div h2{
+ .extra-div h2, .servicediv h2{
     font-size: 0.9rem;
     margin: 20px 0 15px 0;
     font-weight: bold;
@@ -113,4 +113,28 @@ p{
     padding: 50px!important;
     border-radius: 3px;
     transition: 0.3s;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgb(0,0, 0,0.3);
+    transform: translateY(-20px);
+}
+.serviceoffers{
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.headings{
+    margin-bottom: 50px;
+}
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.names h1{
+    color: #2e2e2e;
+    font-size: 00.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
